@@ -1,70 +1,49 @@
-###################
-What is CodeIgniter
-###################
+🧠 Online Exam System
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+A web-based Online Examination System built to simplify the process of conducting and managing online tests. It allows administrators to create exams, manage questions, and monitor student performance, while students can register, take exams, and view their results in real time.
 
-*******************
-Release Information
-*******************
+🚀 Main Features
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+👨‍🏫 Admin Panel – Create, update, and delete exams, questions, and subjects.
 
-**************************
-Changelog and New Features
-**************************
+🧾 User Management – Student registration, login, and profile management.
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+🧮 Exam Management – Supports multiple-choice and descriptive questions.
 
-*******************
-Server Requirements
-*******************
+📊 Result & Analytics – Automatic result generation and performance tracking.
 
-PHP version 5.6 or newer is recommended.
+💬 Secure System – Timer-based exams, random question ordering, and prevention of reattempts.
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+📱 Responsive Design – Works seamlessly on desktop and mobile devices.
 
-************
-Installation
-************
+🛠️ Tech Stack
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+Frontend: HTML, CSS, JavaScript, Bootstrap
 
-*******
-License
-*******
+Backend: PHP (CodeIgniter / Core PHP)
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+Database: MySQL
 
-*********
-Resources
-*********
+Server: XAMPP / Apache
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+⚙️ Installation Steps
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+Clone the repository
 
-***************
-Acknowledgement
-***************
+git clone https://github.com/apsisher/onlineexam.git
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+
+Move the project to your XAMPP htdocs folder.
+
+Import the database file from /database/onlineexam.sql into phpMyAdmin.
+
+Update database credentials in application/config/database.php.
+
+Start Apache and MySQL, then open in browser:
+
+http://localhost/onlineexam
+
+📧 Contact
+
+If you have any questions or suggestions, feel free to reach out.
+Developed by: https://aigtechsolution.co.uk
